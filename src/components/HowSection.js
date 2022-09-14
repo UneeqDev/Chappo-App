@@ -71,11 +71,12 @@ function HowSection() {
             variant="p"
             fontWeight="bold"
             color="white"
+            textAlign="center"
             sx={{ fontSize: { md: "1.9rem", sm: "1.6rem" } }}
           >
             How Much Can You Earn With Us
           </Typography>
-          <Typography color="gray" fontSize="13px" textAlign="center">
+          <Typography color="gray" fontSize="13px" textAlign="center" p={4}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, id
             similique temporibus dignissimos tempore odio?
           </Typography>

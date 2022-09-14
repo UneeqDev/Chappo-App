@@ -12,21 +12,20 @@ const container = {
   justifyContent: "center",
   flexDirection: "column",
   marginTop: "2rem",
-  paddingLeft: { xs: "0.2rem", sm: "0" },
+  paddingLeft: { xs: "0.8rem", sm: "0" },
 };
 
 function FeaturesSection() {
   return (
     <>
       <Box sx={container}>
-        <MotionInView variants={varZoomIn}>
+        <MotionInView variants={varZoomIn} sx={{ width: "90%" }}>
           <Typography
             variant="p"
             fontSize="24px"
             // fontWeight="bold"
-            textAlign="center"
+            sx={{ textAlign: "center !important" }}
             color="white"
-            direction="row"
           >
             Market Sentiments, Portfolio, And Run The Infrastructure Of Your
             Choice

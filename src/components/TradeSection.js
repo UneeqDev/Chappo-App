@@ -19,11 +19,13 @@ const itemsContainer = {
   justifyContent: "center",
   flexDirection: "column",
   marginTop: "3rem",
-  padding: "1rem 0",
+  padding: "1rem 0px",
 };
 const gridStyle = {
   display: "flex",
+  width: { md: "90%", sm: "85%", xs: "80%" },
   alignItems: "center",
+
   justifyContent: { md: "space-between", sm: "center" },
 };
 
@@ -81,10 +83,12 @@ function TradeSection() {
             mt={6}
             mb={9}
             fontWeight="bold"
-            sx={{ textAlign: "center" }}
+            textAlign="center"
+            p={3}
           >
             Trade Securely And Market The High Growth Cryptocurrencies.
           </Typography>
+
           <Grid container width="95%" sx={gridStyle} p={0.2} columnSpacing={3}>
             {isActive.objects.map((element, index) => (
               <TradeSectionCard

@@ -16,7 +16,7 @@ function FeaturesCard({ title, image, direction }) {
   return (
     <>
       <Grid container sx={gridStyle} direction={direction}>
-        <Grid Item xs={12} md={4}>
+        <Grid item xs={12} md={4}>
           <Stack direction="column" spacing={2.8}>
             <Typography
               variant="p"

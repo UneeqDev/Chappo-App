@@ -10,10 +10,11 @@ const gridStyle = {
   gap: "1.5rem",
   justifyContent: "center",
   padding: "1.5rem 0 ",
-  // backgroundColor: "white",
+  // backgroundColor: "red",
   borderRadius: "15px",
   marginBottom: "2.2rem",
   paddingBottom: "3rem",
+  transition: "0.5s ease-in-out",
 };
 const StyledImage = styled("img")({
   width: "5rem",
@@ -42,7 +43,6 @@ function TradeSectionCard({
   title,
   subtitle,
   text,
-  showButton,
 }) {
   return (
     <Grid
