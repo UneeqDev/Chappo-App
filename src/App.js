@@ -17,8 +17,6 @@ const StyledContainer = styled(Box)({
   height: "auto",
   backgroundRepeat: "repeat-y",
   backgroundSize: "cover",
-  overflowX: "none",
-  fontFamily: "Oxanium, sans-serif",
 });
 function App() {
   return (

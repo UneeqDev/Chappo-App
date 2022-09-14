@@ -18,9 +18,9 @@ const NavSection = styled(Box)({
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",
-  margin: "2rem 0",
+  // margin: "2rem 0",
   color: "white",
-  padding: "2rem 0 0rem 1.2rem",
+  padding: "2.5rem 0 0rem 1.2rem",
 
   [theme.breakpoints.down("md")]: {
     // padding: "2rem 0 2rem 1.2rem",
