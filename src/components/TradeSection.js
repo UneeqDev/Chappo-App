@@ -56,7 +56,6 @@ function TradeSection() {
   const [showButton, setShowButton] = useState(false);
   const toggleActive = (index) => {
     setIsActive({ ...isActive, activeObject: isActive.objects[index] });
-    console.log(isActive.activeObject);
   };
   const bgColor = (index) => {
     if (isActive.objects[index] === isActive.activeObject) {

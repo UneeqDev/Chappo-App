@@ -2,7 +2,7 @@
 
 const DISTANCE = 720;
 const IN = { scale: 1, opacity: 1 };
-const OUT = { scale: 0, opacity: 0 };
+const OUT = { scale: 0.3, opacity: 0 };
 
 const TRANSITION_ENTER = {
   duration: 4.5,

@@ -66,7 +66,7 @@ function HowSection() {
   return (
     <>
       <Box sx={container}>
-        <MotionInView variants={varFadeInUp} sx={topContainer}>
+        <MotionInView variants={varFadeInUp} sx={topContainer} key="loader">
           <Typography
             variant="p"
             fontWeight="bold"

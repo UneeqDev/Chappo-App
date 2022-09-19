@@ -1,4 +1,5 @@
 import { Box, styled } from "@mui/material";
+import { AnimatePresence } from "framer-motion";
 import "./App.css";
 import {
   Hero,
@@ -21,16 +22,18 @@ const StyledContainer = styled(Box)({
 function App() {
   return (
     <>
-      <StyledContainer>
-        <Hero />
-        <SectionOne />
-        <WhySection />
-        <HowSection />
-        <TradeSection />
-        <FeaturesSection />
-        <MiningSection />
-        <Footer />
-      </StyledContainer>
+      <AnimatePresence>
+        <StyledContainer>
+          <Hero />
+          <SectionOne />
+          <WhySection />
+          <HowSection />
+          <TradeSection />
+          <FeaturesSection />
+          <MiningSection />
+          <Footer />
+        </StyledContainer>
+      </AnimatePresence>
     </>
   );
 }

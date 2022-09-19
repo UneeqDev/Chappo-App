@@ -13,7 +13,7 @@ import Logo from "../assets/Logo.png";
 import Sidebar from "./Sidebar";
 
 const NavSection = styled(Box)({
-  width: "90%",
+  width: "70%",
   height: "10%",
   display: "flex",
   alignItems: "center",
@@ -21,10 +21,10 @@ const NavSection = styled(Box)({
   // margin: "2rem 0",
   color: "white",
   padding: "2.5rem 0 0rem 1.2rem",
-
   [theme.breakpoints.down("md")]: {
     // padding: "2rem 0 2rem 1.2rem",
     justifyContent: "space-between",
+    width: "90%",
   },
   // [theme.breakpoints.down("sm")]: {
   //   padding: "2rem 0 2rem 1rem",
@@ -49,6 +49,7 @@ const HeroSection = styled(Box)({
   [theme.breakpoints.down("md")]: {
     flexDirection: "column",
     padding: " 1rem 2rem",
+    marginTop: "3rem",
   },
   [theme.breakpoints.down("sm")]: {
     padding: " 1rem 1.5rem",
