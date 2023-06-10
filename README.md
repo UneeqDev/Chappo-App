@@ -1,4 +1,4 @@
-#CyptoApp (Static Version)
+##CyptoApp (Static Version)
 
 
 CyptoApp is a visually stunning cryptocurrency app built using ReactJS. This version of CryptoApp serves as a demonstration of its captivating user interface (UI) design and seamless animations, showcasing the progress I made in improving my animation skills using Framer Motion.
